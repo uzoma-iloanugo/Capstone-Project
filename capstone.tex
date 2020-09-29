@@ -1,0 +1,53 @@
+\documentclass[a4paper,12pt]{article}
+
+%\usepackage{fontspec}
+%\setmainfont{Times New Roman}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{bbm}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{array}
+\usepackage{tabu}
+\usepackage{tabularx}
+\usepackage[pdftex]{xcolor, graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{enumerate}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{ragged2e}
+\usepackage{rotating}
+\usepackage{chngpage}
+\usepackage{bibentry}
+\usepackage{commath}
+\usepackage{pdflscape}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{tikz}
+\doublespacing
+\hypersetup{colorlinks=true, citecolor=black, urlcolor=blue, linkcolor=black}
+\newcolumntype{C}[1]{>{\Centering\arraybackslash}p{#1}}
+\geometry{left = 1in, right= 1 in, top= 1 in, bottom=1in}
+
+\setlength\parindent{0pt}
+
+%\date{August, 2019}
+\author{Iloanugo Uzoma}
+\title{Predicting the Severity of Car Accidents in Seattle}
+
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+The World Health Organization (WHO) reported that about 20 to 50 million people suffer from non-fatal injuries from vehicle accidents globally every year. Some of the risk factors the WHO considers in their report are speeding, driving under the influence of alcohol or other psychoactive substances, improper use of road safety equipment (helmet, seat belts etc.), distracting the driver, unsafe road infrastructure and so on. Also, the Center for Disease Control shows that every year in the United States, about 3 million people are involved in accidents that cause serious injury. In 2017, the cost to the US economy was huge at about \$75billion in medical care cost and lost productivity from vehicle accidents alone. The Seattle Department of Transportation’s annual traffic report shows that there were 10,959 vehicle-related accidents reported by the police in 2017. The effect of car accidents on the society and economy should be of interest to stakeholders and the government.\\
+
+A comprehensive study that measures these risk factors and estimates how they predict the timing of road accidents will be of use to all parties involved. These include private citizens who bear the pain of the accidents; the cooperation and State government that bear the loss in productivity as a result of road accidents; and insurance companies that provide cover for road users. The objective of this project is to fill in the gap. Using data from road accidents in Seattle, we predict road accidents by considering some of the risk factors stated by the WHO and other factors provided by the police data on road accidents. The Washington State Department of Transport (WSDOT) reported that the common cause of accidents specific to Seattle is speeding, intoxication, following cars too closely, defective equipment, poor vehicle maintenance and failure to yield right of way. The dataset we use to create a predictive model should measure these factors to a good extent to enable the algorithm to learn and predict car accidents from the data.
+
+\section{Data}
+The data used in the study is from the Seattle Department of Transport (SDOT). The dataset collects information on the event vehicle accidents in Seattle. The information includes the location and other attributes related to the event provided by the Seattle Police Department (SPD). Some attributes that will be considered important for the analysis in the dataset includes – the severity of the accident, location, the number of people involved, number of vehicles, the junction types, under the influence, weather, road condition, light condition, and if the driver was speeding. Other attributes will be considered and the analysis will involve selecting appropriate attributes that best predict the target – the severity of the accident. The target - severity of accident -  and the model will predict the factors that distinguish between a vehicle accident leading to loss of property versus causing serious injuries. The other parts of the research will explore the data and discuss the model most appropriate for the analysis.
+
+\end{document}
