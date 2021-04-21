@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Business Problem}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Data}{}% 3
+\BOOKMARK [1][-]{section.3}{Methodology}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Exploratory Data Analysis \(EDA\)}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Data Transformation}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Descriptive Statistics}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.4}{Machine Learning Algorithm}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Results Section}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Selecting the Optimal Number of K in the KNN}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Model Evaluation}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Discussion}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Policy Recommendation}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 14
